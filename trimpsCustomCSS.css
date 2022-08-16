@@ -3,10 +3,10 @@
     display: none;
 }
 
-#autoMapBtn, #battleBtnsColumn > div:nth-child(13) {
-}
+#autoMapBtn,
+#battleBtnsColumn>div:nth-child(13) {}
 
-.battleSideBtnContainer > *:not(#mapsBtn) {
+.battleSideBtnContainer>*:not(#mapsBtn) {
     padding: 0.24vw 0.3vw;
 }
 
@@ -14,9 +14,11 @@
     padding: 0;
 }
 
-.heirloomRare8, .heirloomRare8.heirloomThing {
+.heirloomRare8,
+.heirloomRare8.heirloomThing {
     text-shadow: 1px 1px 2px rgba(15, 158, 74, 0.6), 0 0 25px rgba(43, 64, 185, 0.6), 0 0 5px rgba(33, 114, 51, 0.6);
 }
+
 /* end of AutoTrimps */
 
 :root {
@@ -36,7 +38,7 @@ html {
 }
 
 body {
-	font-family: Roboto, Helvetica;
+    font-family: Roboto, Helvetica;
     color: #1A202C;
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
@@ -69,8 +71,8 @@ body {
     border-right: 1px solid var(--mainColor);
 }
 
-.progress > div > span {
-	line-height: 1.1vw
+.progress>div>span {
+    line-height: 1.1vw
 }
 
 .percentColorBlue {
@@ -141,49 +143,55 @@ body {
 }
 
 #autoGoldenText {
-	width: 100%;
-	padding-block: 0.2vw;
+    width: 100%;
+    padding-block: 0.2vw;
 }
 
-#autoStructureText, #autoJobsText, #autoEquipText {
+#autoStructureText,
+#autoJobsText,
+#autoEquipText {
     width: 85%;
-	padding-block: 0.2vw;
+    padding-block: 0.2vw;
 }
 
 .toggleConfigBtn div:nth-child(2) {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #2F855A;
     color: var(--textColor);
-	width: 15%;
-	height: 100%;
+    width: 15%;
+    height: 100%;
 }
 
 .toggleConfigBtn div:nth-child(2):hover {
     background: #4299E1;
 }
 
-.glyphicon, .icomoon, .glyphicon-adjust, #selectedHeirloomIcon span {
-	vertical-align: -.125em;
-	top: 0
+.glyphicon,
+.icomoon,
+.glyphicon-adjust,
+#selectedHeirloomIcon span {
+    vertical-align: -.125em;
+    top: 0
 }
 
 .icomoon.icon-close {
-	text-shadow: 1px 1px 1px black;
-	color: #C53030;
+    text-shadow: 1px 1px 1px black;
+    color: #C53030;
 }
 
 .icomoon.icon-close:hover {
-	color: #E63939;
+    color: #E63939;
 }
 
-#playerSpireCloseBtnSm, #playerSpireCloseBtn {
-	font-size: 2vw;
+#playerSpireCloseBtnSm,
+#playerSpireCloseBtn {
+    font-size: 2vw;
 }
 
 .message.undefined .glyphicon {
-	display: none;
+    display: none;
 }
 
 #selectedMapContainer .infoColor {
@@ -226,10 +234,12 @@ body {
     color: var(--textColor)
 }
 
-.toggleConfigBtn, .autoUpgradeBtn, #fireBtn{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.toggleConfigBtn,
+.autoUpgradeBtn,
+#fireBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 1.5vw;
 }
 
@@ -422,16 +432,16 @@ select option {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     padding: 0.5rem .875rem;
     border-radius: 8px;
-	height: unset;
+    height: unset;
 }
 
 #noQueue {
     color: #CBD5E0;
     padding: 0;
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
-#queueItemsHere > :nth-child(1) {
+#queueItemsHere> :nth-child(1) {
     border: none;
     margin-left: 0;
     color: var(--textColor);
@@ -440,29 +450,29 @@ select option {
 }
 
 .queueItem {
-	font-size: .825vw;
+    font-size: .825vw;
     border: none;
     color: #E2E8F0;
     background: var(--offColor);
     margin-right: 2px;
     padding: 4px 8px;
     border-radius: 4px;
-	scroll-snap-align: end;
+    scroll-snap-align: end;
 }
 
 #queueRow {
     text-align: left;
-	margin-bottom: .25vw;
+    margin-bottom: .25vw;
 }
 
 #buildingsQueue {
-	height: clamp(38px, 2.1vw, 70px);
-	scroll-snap-type: y;
-	scrollbar-width: none;
+    height: clamp(38px, 2.1vw, 70px);
+    scroll-snap-type: y;
+    scrollbar-width: none;
 }
 
 #buildingsQueue::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
 
 #foremenCount,
@@ -474,7 +484,7 @@ select option {
 }
 
 .lowPad {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 .playerGather {
@@ -488,8 +498,7 @@ select option {
     border-bottom: 4px solid #1A202C
 }
 
-.playerGather .title {
-}
+.playerGather .title {}
 
 .playerGather .ownedArea {
     text-align: center;
@@ -502,15 +511,15 @@ select option {
 }
 
 .playerGather .progress {
-	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
     height: 1em;
 }
 
 #science {
-	padding-top: unset;
+    padding-top: unset;
 }
 
-#science.playerGather > .collectRow {
+#science.playerGather>.collectRow {
     margin-top: 24px;
 }
 
@@ -529,7 +538,7 @@ select option {
 }
 
 #boneShrineBtn.isFull {
-	color: #151515;
+    color: #151515;
 }
 
 #miscColumn .title {
@@ -614,13 +623,13 @@ select option {
 }
 
 .fluffyEvolveText {
-	border-radius: 4px;
-	padding-block: 10px;
+    border-radius: 4px;
+    padding-block: 10px;
 }
 
 .btn-sm {
-	border: none;
-	margin-top: 5px;
+    border: none;
+    margin-top: 5px;
 }
 
 #trimpsColumn .playerGather #fluffyExpContainer {
@@ -636,7 +645,7 @@ select option {
 }
 
 #logBtnGroup {
-	height: unset;
+    height: unset;
 }
 
 #logBtnGroup div button {
@@ -655,7 +664,7 @@ select option {
 }
 
 #logBtnGroup .btn-success:hover {
-	background-color: #48BB78;
+    background-color: #48BB78;
 }
 
 .btn-default {
@@ -663,20 +672,20 @@ select option {
 }
 
 .btn-danger {
-	background-color: #9b2c2c;
+    background-color: #9b2c2c;
 }
 
 .btn-danger:hover {
-	background-color: #c9302c;
+    background-color: #c9302c;
 }
 
 .btn {
-	box-shadow: 0px 0px 2px rgba(0 0 0 / 0.25);
+    box-shadow: 0px 0px 2px rgba(0 0 0 / 0.25);
 }
 
 .message {
-	padding: 0px 5px;
-	line-height: 1.5;
+    padding: 0px 5px;
+    line-height: 1.5;
 }
 
 .StoryMessage {
@@ -684,7 +693,7 @@ select option {
 }
 
 .NoticesMessage {
-	color: rgb(255, 73, 73)
+    color: rgb(255, 73, 73)
 }
 
 .turkimp {
@@ -693,7 +702,7 @@ select option {
 }
 
 #tooltipDiv.tooltipExtraHeirloom {
-	background: initial;
+    background: initial;
 }
 
 #tooltipDiv,
@@ -735,7 +744,7 @@ select option {
     border: none;
     font-size: .875vw;
     padding: 7px;
-	line-height: normal;
+    line-height: normal;
     color: #1A202C
 }
 
@@ -810,12 +819,12 @@ select option {
     display: none;
 }
 
-#tipCost > b {
-	color: #ff4949;
+#tipCost>b {
+    color: #ff4949;
 }
 
 .thingColorDone {
-	background-color: #276749;
+    background-color: #276749;
 }
 
 #tooltipDiv.tooltipExtraHeirloom #tipText,
@@ -834,7 +843,9 @@ select option {
 }
 
 #tipCost,
-#tipCost2, #tipTitle, #tipTitle2 {
+#tipCost2,
+#tipTitle,
+#tipTitle2 {
     text-align: left;
     background: #EBF8FF;
     padding: 10px 16px;
@@ -855,7 +866,7 @@ select option {
 
 #tipCost .btn-info:hover,
 #tipCost2 .btn-info:hover {
-	background-color: #48BB78;
+    background-color: #48BB78;
 }
 
 #tipCost .btn-danger,
@@ -870,9 +881,10 @@ select option {
     background-color: #3182CE
 }
 
-#tipCost .btn-success:hover, #tipCost2 .btn-success:hover {
-	color: var(--textColor);
-	background-color: #3182CEE0;
+#tipCost .btn-success:hover,
+#tipCost2 .btn-success:hover {
+    color: var(--textColor);
+    background-color: #3182CEE0;
 }
 
 #messageConfigMessage {
@@ -923,28 +935,28 @@ select option {
 
 .bdTable .bdZoneTitle,
 .bdTableSm .bdZoneTitle {
-	text-decoration: none;
+    text-decoration: none;
     text-align: center;
-	font-size: 1.15em;
+    font-size: 1.15em;
 }
 
-.bdTable > tbody > tr > td,
-.bdTableSm > tbody > tr > td {
+.bdTable>tbody>tr>td,
+.bdTableSm>tbody>tr>td {
     border: none;
     padding: 4px
 }
 
-.bdTable > tbody > tr > td:last-child,
-.bdTableSm > tbody > tr > td:last-child {
+.bdTable>tbody>tr>td:last-child,
+.bdTableSm>tbody>tr>td:last-child {
     border-right: none
 }
 
-.bdTable > tbody > tr:last-child > td,
-.bdTableSm > tbody > tr:last-child > td {
+.bdTable>tbody>tr:last-child>td,
+.bdTableSm>tbody>tr:last-child>td {
     border-bottom: none
 }
 
-.bdTableSm > tbody > tr:first-child {
+.bdTableSm>tbody>tr:first-child {
     font-weight: 600;
     color: var(--mainColor)
 }
@@ -962,22 +974,22 @@ select option {
     background: transparent
 }
 
-#lootBdTabs.nav-tabs.nav-justified > li {
+#lootBdTabs.nav-tabs.nav-justified>li {
     border-color: var(--textColor)
 }
 
-#lootBdTabs.nav-tabs.nav-justified > li > a {
+#lootBdTabs.nav-tabs.nav-justified>li>a {
     color: var(--mainColor);
     background: #E2E8F0
 }
 
-#lootBdTabs.nav-tabs.nav-justified > li > a:hover {
+#lootBdTabs.nav-tabs.nav-justified>li>a:hover {
     background: var(--mainColor);
     color: #E2E8F0;
 }
 
-#lootBdTabs.nav-tabs.nav-justified > li > a:target {
-	background: green;
+#lootBdTabs.nav-tabs.nav-justified>li>a:target {
+    background: green;
 }
 
 #buyMaxUl li {
@@ -1022,30 +1034,30 @@ select option {
     border: none
 }
 
-#fluffyLevelBreakdown > tbody > tr:first-child {
+#fluffyLevelBreakdown>tbody>tr:first-child {
     text-align: left;
     font-weight: 600;
     color: var(--offColor);
 }
 
-#fluffyLevelBreakdown > tbody > tr:first-child > td:last-child {
+#fluffyLevelBreakdown>tbody>tr:first-child>td:last-child {
     text-align: right
 }
 
-#fluffyLevelBreakdown > tbody > tr:nth-child(even) {
+#fluffyLevelBreakdown>tbody>tr:nth-child(even) {
     background: #EDF2F7
 }
 
-#fluffyLevelBreakdown > tbody > tr.fluffyRowComplete {
+#fluffyLevelBreakdown>tbody>tr.fluffyRowComplete {
     background: #CBD5E0;
     color: #718096
 }
 
-#fluffyLevelBreakdown > tbody > tr > td {
+#fluffyLevelBreakdown>tbody>tr>td {
     border: none
 }
 
-#fluffyLevelBreakdown > tbody > tr > td:first-child {
+#fluffyLevelBreakdown>tbody>tr>td:first-child {
     padding: 0 0.75rem;
     text-align: left
 }
@@ -1081,15 +1093,15 @@ select option {
     overflow: hidden;
     border-radius: .75rem;
     padding: .8vw;
-	margin-inline: 5px;
-	width: calc(33.33333333% - 10px);
-	height: unset;
+    margin-inline: 5px;
+    width: calc(33.33333333% - 10px);
+    height: unset;
 }
 
 #boneBuyRow {
-	display: flex;
-	align-items: stretch;
-	height: unset;
+    display: flex;
+    align-items: stretch;
+    height: unset;
 }
 
 .boneBuyColumn:last-child {
@@ -1155,23 +1167,23 @@ select option {
     margin-top: 8px
 }
 
-.importsTable > tbody > tr {
+.importsTable>tbody>tr {
     background-color: #E2E8F0
 }
 
-.importsTable > tbody > tr:hover {
+.importsTable>tbody>tr:hover {
     background-color: #CBD5E0
 }
 
-.importsTable > tbody > tr.tealColor {
+.importsTable>tbody>tr.tealColor {
     background-color: #3182CE
 }
 
-.importsTable > tbody > tr {
+.importsTable>tbody>tr {
     background-color: #38A169;
 }
 
-.importsTable > tbody > tr > td {
+.importsTable>tbody>tr>td {
     border-top: 2px solid var(--textColor)
 }
 
@@ -1179,8 +1191,8 @@ select option {
     border: none;
 }
 
-.singleBonusBox > div {
-	font-size-adjust: 0.6;
+.singleBonusBox>div {
+    font-size-adjust: 0.6;
 }
 
 #singleRunBonuses div .boneBtn {
@@ -1199,14 +1211,15 @@ select option {
 }
 
 #outerBuyContainer {
-	display: flex;
-	flex-flow: column;
+    display: flex;
+    flex-flow: column;
     background: none;
     border: none;
 }
 
-#buyTabsUl, #buyTabsUl2 {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+#buyTabsUl,
+#buyTabsUl2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 #buyTabs .tabNotSelected {
@@ -1221,18 +1234,18 @@ select option {
     background: var(--backColor);
 }
 
-.nav-tabs.nav-justified > li > a {
-	font-size: 0.75vw;
+.nav-tabs.nav-justified>li>a {
+    font-size: 0.75vw;
     border: none;
     padding: 8px 4px;
     color: #D1DBE8;
 }
 
-.nav-tabs.nav-justified > li > a:hover {
+.nav-tabs.nav-justified>li>a:hover {
     color: var(--textColor);
 }
 
-.buyTabsUl > li > a {
+.buyTabsUl>li>a {
     border-radius: 4px 4px 0 0;
 }
 
@@ -1245,30 +1258,30 @@ select option {
     padding-bottom: 4px;
 }
 
-#numTabs .nav-tabs.nav-justified > li.tabSelected {
+#numTabs .nav-tabs.nav-justified>li.tabSelected {
     background: none;
 }
 
-#numTabs .nav-tabs.nav-justified > li.tabSelected > a {
+#numTabs .nav-tabs.nav-justified>li.tabSelected>a {
     background: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 4px;
     color: var(--textColor);
 }
 
-#numTabs .nav-tabs.nav-justified > li > a {
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-	font-size: 0.7vw;
+#numTabs .nav-tabs.nav-justified>li>a {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    font-size: 0.7vw;
     color: #A0AEC0;
-	border-radius: 4px;
+    border-radius: 4px;
 }
 
-#numTabs > .nav-tabs.nav-justified > #tab5.tabSelected > a:first-child {
-	border-radius: 4px 0 0 4px;
+#numTabs>.nav-tabs.nav-justified>#tab5.tabSelected>a:first-child {
+    border-radius: 4px 0 0 4px;
 }
 
-#numTabs > .nav-tabs.nav-justified > #tab5.tabSelected > a:nth-child(2) {
-	border-radius: 0 4px 4px 0;
+#numTabs>.nav-tabs.nav-justified>#tab5.tabSelected>a:nth-child(2) {
+    border-radius: 0 4px 4px 0;
 }
 
 #buyContainer {
@@ -1277,26 +1290,26 @@ select option {
 }
 
 #buyHere.buttonSizeSmall div .buyBox .thing {
-	font-size: MAX(11.5px, .75vw);
+    font-size: MAX(11.5px, .75vw);
 }
 
 #buyHere {
-	margin-bottom: .75vw;
+    margin-bottom: .75vw;
 }
 
 .titleSpan {
-	padding-left: 5px;
+    padding-left: 5px;
     text-align: left;
     color: #E2E8F0;
 }
 
 #equipmentHere {
-	display: flex;
-	flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #Shoulderguards {
-	font-size: 0.64vw;
+    font-size: 0.64vw;
 }
 
 .thing {
@@ -1312,8 +1325,7 @@ select option {
     top: -4px
 }
 
-.thingName {
-}
+.thingName {}
 
 .thingColorCanAfford {
     background: var(--secondColor);
@@ -1397,11 +1409,11 @@ select option {
 }
 
 .natureTop {
-	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     background: none;
 }
 
-.natureTop > span {
+.natureTop>span {
     font-weight: 600;
 }
 
@@ -1448,17 +1460,22 @@ select option {
     left: 8px
 }
 
-.natureUpgradeLevel, .natureBigIcon, .natureSmallIcon, .natureUpgradeCost .green {
+.natureUpgradeLevel,
+.natureBigIcon,
+.natureSmallIcon,
+.natureUpgradeCost .green {
     text-shadow: 1px 1px 2px rgba(0 0 0 / 0.5);
 }
 
-.natureUpgradeCost .orange, .natureUpgradeCost .red, .natureUpgradeLevel .red {
+.natureUpgradeCost .orange,
+.natureUpgradeCost .red,
+.natureUpgradeLevel .red {
     color: #E53E3E;
     text-shadow: 1px 1px 2px rgba(0 0 0 / 0.5);
 }
 
 .natureSmallIcon {
-	top: 2vw;
+    top: 2vw;
 }
 
 .natureSmallIcon.icon-flask {
@@ -1531,31 +1548,31 @@ select option {
 }
 
 #talentRespecBtn {
-	border: none;
-	border-radius: 4px;
-	box-shadow: 0 0 4px rgba(0 0 0 / 0.25);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0 0 0 / 0.25);
 }
 
 #talentsTitle {
-	font-size: 1.8vw;
+    font-size: 1.8vw;
 }
 
 .talentItem {
-	border: 0;
-	margin: 1px;
-	width: 16.356666%;
+    border: 0;
+    margin: 1px;
+    width: 16.356666%;
 }
 
 .talentItem.talentPurchased {
     background-color: #276749;
 }
 
-.talentRowUnlocked > .talentItem.talentNotPurchased {
+.talentRowUnlocked>.talentItem.talentNotPurchased {
     background-color: var(--backColor);
 }
 
 .talentNotPurchased {
-	background-color: var(--offColor);
+    background-color: var(--offColor);
 }
 
 
@@ -1602,8 +1619,8 @@ select option {
 }
 
 .badNameMutation.Healthy {
-	background: none;
-	color: #b78f58
+    background: none;
+    color: #b78f58
 }
 
 #damageDiv,
@@ -1744,7 +1761,7 @@ select option {
 }
 
 .battleSideBtnContainer {
-	margin-top: 2px;
+    margin-top: 2px;
 }
 
 .battleSideBtnContainer .fightBtn {
@@ -1754,7 +1771,7 @@ select option {
 }
 
 .btn .badge {
-	top: 0;
+    top: 0;
 }
 
 .battleSideBtnContainer .btn-primary {
@@ -1799,7 +1816,7 @@ select option {
 }
 
 .battleSideBtnContainer .btn-info:hover {
-	background: #5A67D8E0;
+    background: #5A67D8E0;
 }
 
 .battleSideBtnContainer #mapsBtn div:nth-child(2) {
@@ -1808,7 +1825,7 @@ select option {
 }
 
 .battleSideBtnContainer #mapsBtn div:nth-child(2) span {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .battleSideBtnContainer .mapBonus10 {
@@ -1821,9 +1838,9 @@ select option {
 }
 
 .shrinkBtnText div:first-child {
-	padding: unset;
-	font-size: 0.85vw;
-	margin-top: 0.4em;
+    padding: unset;
+    font-size: 0.85vw;
+    margin-top: 0.4em;
 }
 
 .battleSideBtnContainer .heirloomsBtnColor {
@@ -1831,16 +1848,16 @@ select option {
 }
 
 .battleSideBtnContainer .heirloomsBtnColor:hover {
-	background: #BB3280E0;
+    background: #BB3280E0;
 }
 
 #voidMapsBtn {
-	background: #2E0854;
+    background: #2E0854;
 }
 
 #voidMapsBtn:hover {
-	background: #270848;
-	color: #DDDDFF;
+    background: #270848;
+    color: #DDDDFF;
 }
 
 .antiBadge {
@@ -1850,7 +1867,7 @@ select option {
 
 .badBadge {
     background-color: var(--offColor);
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .badge.Corruption {
@@ -1859,7 +1876,7 @@ select option {
 }
 
 #badGuyName .badBadge {
-	padding-left: 10px;
+    padding-left: 10px;
 }
 
 #colStances {
@@ -1873,7 +1890,7 @@ select option {
     margin-right: 15px
 }
 
-#colStances > div:nth-child(1) > div:last-child {
+#colStances>div:nth-child(1)>div:last-child {
     border-radius: 0 4px 4px 0;
     overflow: hidden
 }
@@ -1937,7 +1954,7 @@ select option {
     border: none;
     border-radius: 0 8px 8px 0;
     background-color: var(--backColor);
-	box-shadow: 0 25px 50px -12px rgba(0 0 0 / 0.5);
+    box-shadow: 0 25px 50px -12px rgba(0 0 0 / 0.5);
 }
 
 .playerSpireCell {
@@ -1947,17 +1964,17 @@ select option {
 }
 
 #floatingCombatText {
-	border: none;
+    border: none;
 }
 
 #playerSpireSpirePanel {
     border-radius: 8px 0 0 8px;
-	padding: 1rem;
+    padding: 1rem;
 }
 
 #playerSpireInfoPanel *:not(hr) {
     border: none;
-	border-radius: 4px;
+    border-radius: 4px;
 }
 
 .spireControlBox,
@@ -1967,28 +1984,32 @@ select option {
 }
 
 .spireQuest {
-	border: 1px solid #3c3cdf;
+    border: 1px solid #3c3cdf;
 }
 
 #bottomRow {
-	height: calc(100vh - 18vw - 36px);
+    height: calc(100vh - 18vw - 36px);
 }
 
-#rightCol, #gridRow, #gridContainer, #preMaps {
-	height: 100%;
+#rightCol,
+#gridRow,
+#gridContainer,
+#preMaps {
+    height: 100%;
 }
 
 #mapsHere.mapSize2 {
-	height: calc(99% - 15vw - 95px);
-	padding-bottom: .75vw;
+    height: calc(99% - 15vw - 95px);
+    padding-bottom: .75vw;
 }
 
-#grid, #mapGrid {
-	height: unset;
+#grid,
+#mapGrid {
+    height: unset;
 }
 
 #advPerfectCheckbox {
-	padding: 7px;
+    padding: 7px;
 }
 
 #preMaps {
@@ -2042,7 +2063,7 @@ select option {
 }
 
 #mapLevelContainer {
-	display: flex;
+    display: flex;
     padding-top: 2px;
     padding-left: 0;
 }
@@ -2053,7 +2074,7 @@ select option {
 
 #mapLevelContainer .incrementBtn:first-child {
     border-radius: 4px 0 0 4px;
-	margin-left: 5px;
+    margin-left: 5px;
 }
 
 #mapLevelContainer .incrementBtn:last-child {
@@ -2121,7 +2142,7 @@ select option {
 }
 
 .mapStatsValue {
-	font-size: .875vw;
+    font-size: .875vw;
     color: var(--textColor);
     font-weight: 600
 }
@@ -2133,7 +2154,7 @@ select option {
 }
 
 .thingName.onMapName {
-	font-size: clamp(0.8em, 0.85vw, 0.95em);
+    font-size: clamp(0.8em, 0.85vw, 0.95em);
 }
 
 #mapsHere {
@@ -2141,7 +2162,7 @@ select option {
 }
 
 #mapsHere .thing {
-	font-size: clamp(0.4em, 0.85vw, 0.8em);
+    font-size: clamp(0.4em, 0.85vw, 0.8em);
     background: var(--offColor)
 }
 
@@ -2184,7 +2205,7 @@ select option {
 }
 
 .mazRx div {
-	margin-left: -0.5vw;
+    margin-left: -0.5vw;
 }
 
 #mazError {
@@ -2206,7 +2227,7 @@ select option {
 }
 
 #mazAddRowBtn {
-	font-size: .75vw;
+    font-size: .75vw;
     color: #38A169
 }
 
@@ -2340,164 +2361,167 @@ select option {
 
 .achieveTier1 {
     color: #86d07c;
-	border-image: linear-gradient(#86d07c, #000) 10;
+    border-image: linear-gradient(#86d07c, #000) 10;
 }
 
 .achieveTier2 {
     color: #24649d;
-	border-image: linear-gradient(#24649d, #000) 10;
+    border-image: linear-gradient(#24649d, #000) 10;
 }
 
 .achieveTier3 {
     color: 7b287b;
-	border-image: linear-gradient(#7b287b, #000) 10;
+    border-image: linear-gradient(#7b287b, #000) 10;
 }
+
 .achieveTier4 {
     color: #a0592f;
-	border-image: linear-gradient(#a0592f, #000) 10;
+    border-image: linear-gradient(#a0592f, #000) 10;
 }
 
 .achieveTier5 {
     color: #861515;
-	border-image: linear-gradient(#861515, #000) 10;
+    border-image: linear-gradient(#861515, #000) 10;
 }
 
 .achieveTier6 {
     color: #c62461;
-	border-image: linear-gradient(#c62461, #000) 10;
+    border-image: linear-gradient(#c62461, #000) 10;
 }
 
 .achieveTier7 {
     color: #2bcaca;
-	border-image: linear-gradient(#2bcaca, #000) 10;
+    border-image: linear-gradient(#2bcaca, #000) 10;
 }
 
 .achieveTier8 {
     color: #d37b58;
-	border-image: linear-gradient(#d37b58, #000) 10;
+    border-image: linear-gradient(#d37b58, #000) 10;
 }
 
 .achieveTier9 {
-	border-image: radial-gradient(ellipse at top, #2286ad 0%,#000000 30%, #661310 50%, #000000 80%) 1;
+    border-image: radial-gradient(ellipse at top, #2286ad 0%, #000000 30%, #661310 50%, #000000 80%) 1;
 }
 
 .achieveTier10 {
-	border-image: radial-gradient(ellipse at top, #bd6543 0%,#661310 30%, #a18900 50%, #661310 80%) 1;
+    border-image: radial-gradient(ellipse at top, #bd6543 0%, #661310 30%, #a18900 50%, #661310 80%) 1;
 }
 
 .achieveTier11 {
-	border-image: radial-gradient(ellipse at top, #551555 0%, #35a5a5 30%, #1900ff 50%, #35a5a5 80%) 1;
+    border-image: radial-gradient(ellipse at top, #551555 0%, #35a5a5 30%, #1900ff 50%, #35a5a5 80%) 1;
 }
 
 .achieveTier12 {
-	border-image: radial-gradient(ellipse at top, #620f0f 0%, #d58565 30%, #951545 50%, #d58565 80%) 1;
+    border-image: radial-gradient(ellipse at top, #620f0f 0%, #d58565 30%, #951545 50%, #d58565 80%) 1;
 }
 
 .achieveTier13 {
-	border-image: radial-gradient(ellipse at top, #880588 0%, #4b2850 15%, #067c21 30%, #b300ff 45%, #060754 50%, #b300ff 55%, #067c21 70%, #4b2850 85%) 1;
+    border-image: radial-gradient(ellipse at top, #880588 0%, #4b2850 15%, #067c21 30%, #b300ff 45%, #060754 50%, #b300ff 55%, #067c21 70%, #4b2850 85%) 1;
 }
 
 #statsWrapper {
-	background: var(--backColor);
+    background: var(--backColor);
 }
 
 #statsTitle {
-	font-size: 1.875em;
-	font-weight: 600;
+    font-size: 1.875em;
+    font-weight: 600;
 }
 
 #statsWrapper .btn-info {
-	color: #EBF8FF;
-	background-color: #3182CE;
-	border-color: #3182CE;
+    color: #EBF8FF;
+    background-color: #3182CE;
+    border-color: #3182CE;
 }
 
 #statsWrapper .btn-info:hover {
-	background-color:#2B6CB0;
-	border-color:#2B6CB0
+    background-color: #2B6CB0;
+    border-color: #2B6CB0
 }
 
 #statsWrapper .btn-danger {
-	color:#EBF8FF;
-	background-color:#E53E3E;
-	border-color:#E53E3E
+    color: #EBF8FF;
+    background-color: #E53E3E;
+    border-color: #E53E3E
 }
 
 #statsWrapper .btn-danger:hover {
-	background-color: #C53030;
-	border-color: #C53030;
+    background-color: #C53030;
+    border-color: #C53030;
 }
 
 #statsWrapper .statToggleBtn {
-	font-size: 1.5em;
-	font-weight: 600;
-	border: none;
-	color: #F7FAFC;
-	background: #4A5568;
-	box-shadow: 0px 3px 3px rgba(0 0 0 / 0.5);
-	width: 20%;
-	margin-inline: 2.5%;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: none;
+    color: #F7FAFC;
+    background: #4A5568;
+    box-shadow: 0px 3px 3px rgba(0 0 0 / 0.5);
+    width: 20%;
+    margin-inline: 2.5%;
 }
 
 #statsWrapper .statToggleBtn:hover {
-	background: #718096;
-	color: #F7FAFC;
+    background: #718096;
+    color: #F7FAFC;
 }
 
 #statsWrapper .inPortalBtn {
-	font-size: 1em;
-	font-weight: 600;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 #statsWrapper .statToggleBtn[style*="border: 5px solid black"] {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 #statsWrapper .statToggleBtn[style*="border: 5px solid yellow"] {
-	border: none;
-	background: #3182CE;
+    border: none;
+    background: #3182CE;
 }
 
 .statContainer {
-	border-radius: 8px;
-	background: #2D3748;
-	text-align: left;
-	padding: 12px 24px;
-	margin-bottom: 12px;
-	box-shadow: 0px 3px 3px rgba(0 0 0 / 0.5);
+    border-radius: 8px;
+    background: #2D3748;
+    text-align: left;
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    box-shadow: 0px 3px 3px rgba(0 0 0 / 0.5);
 }
 
 #statsRow {
-	scrollbar-color: var(--mainColor);
+    scrollbar-color: var(--mainColor);
     scrollbar-width: thin;
 }
 
 .statValue {
- display: block;
- font-weight: 700;
- line-height: 1;
+    display: block;
+    font-weight: 700;
+    line-height: 1;
 }
 
 .btn-default:hover {
-	background: #E2E8F0E0;
+    background: #E2E8F0E0;
 }
 
 #settingsRow {
     background: #1A202C;
     color: #CBD5E0;
-	padding-top: 2px;
+    padding-top: 2px;
 }
 
-#settingsTable > tbody > tr > td {
+#settingsTable>tbody>tr>td {
     border-top: none;
     border-bottom: none;
     border-width: 2px;
     border-color: #1A202C;
 }
 
-#settingsTable .btn, #portalTime, .icon-pause3 {
+#settingsTable .btn,
+#portalTime,
+.icon-pause3 {
     border-radius: 8px 8px 0 0;
-	font-size: clamp(14px, 0.725vw, 24px);
+    font-size: clamp(14px, 0.725vw, 24px);
 }
 
 #settingsTable .btn-info:hover {
@@ -2613,7 +2637,7 @@ select option {
 }
 
 .settingBtn2 {
-	color: white;
+    color: white;
     background-color: #B7791F;
 }
 
@@ -2727,17 +2751,18 @@ select option {
 }
 
 #viewChallengeText ul {
-	padding-right: 10px;
+    padding-right: 10px;
 }
 
-#portalTitle, #portalRow {
-	margin-top: unset;
+#portalTitle,
+#portalRow {
+    margin-top: unset;
 }
 
 #titleRow {
     display: flex;
-	height: unset;
-	margin-bottom: 16px;
+    height: unset;
+    margin-bottom: 16px;
 }
 
 .titleCol {
@@ -2760,16 +2785,16 @@ select option {
     display: flex;
 }
 
-#titleCol2 > div {
+#titleCol2>div {
     width: 70%
 }
 
-#titleCol2 > div > div {
+#titleCol2>div>div {
     display: flex;
     justify-content: space-between;
 }
 
-#titleCol2 > div > div span {
+#titleCol2>div>div span {
     text-transform: none
 }
 
@@ -2777,11 +2802,11 @@ select option {
 #portalTabs {
     background: transparent;
     border: none;
-	box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
+    box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
 }
 
-#portalPresetsTabs.nav-tabs.nav-justified > li > a,
-#portalTabs.nav-tabs.nav-justified > li > a {
+#portalPresetsTabs.nav-tabs.nav-justified>li>a,
+#portalTabs.nav-tabs.nav-justified>li>a {
     margin: 2px;
     border-radius: 4px
 }
@@ -2831,11 +2856,11 @@ select option {
 }
 
 #ptabRemove {
-	background: unset;
+    background: unset;
 }
 
 .portalThing {
-	box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
+    box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
 }
 
 .portalThing.perkColorOn {
@@ -2850,8 +2875,8 @@ select option {
 
 .portalThing.perkColorMaxed {
     background-color: #434190;
-	color: #718096;
-	opacity: 0.5;
+    color: #718096;
+    opacity: 0.5;
 }
 
 .portalThing.additive.perkColorOn {
@@ -2863,15 +2888,16 @@ select option {
 }
 
 #challengeCol {
-	color: var(--textColor);
+    color: var(--textColor);
 }
 
 #challenges {
     margin: 0
 }
 
-#portalStory, #challengeDescriptionPre {
-	display: flex;
+#portalStory,
+#challengeDescriptionPre {
+    display: flex;
 }
 
 .challengeTitle {
@@ -2897,11 +2923,11 @@ select option {
     padding-bottom: 16px;
     margin: 16px 0;
     border-radius: 8px;
-	scrollbar-width: thin;
+    scrollbar-width: thin;
 }
 
 #specificChallengeDescription ul {
-	padding-right: 5px;
+    padding-right: 5px;
 }
 
 .dailyTopRow {
@@ -2936,14 +2962,14 @@ select option {
     background: #3d9360;
 }
 
-.dailyTopRow + .row {
+.dailyTopRow+.row {
     margin: 8px -15px;
     font-size: .875rem;
     font-weight: 600
 }
 
 .challengeThing {
-	font-size: clamp(1em, 1.1vw, 1.4em);
+    font-size: clamp(1em, 1.1vw, 1.4em);
     height: auto;
     padding: 4px;
 }
@@ -2969,7 +2995,7 @@ select option {
 .finishedChallenge {
     background-color: #718096;
     color: #1A202C;
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 #challengeDaily {
@@ -2994,7 +3020,7 @@ select option {
 }
 
 #portalBtnContainer .inPortalBtn {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 .portalMk1 {
@@ -3011,160 +3037,174 @@ select option {
     background: #07090c
 }
 
-#ShieldEquipped, #StaffEquipped, #CoreEquipped {
-	margin-bottom: 1rem;
-	background: #1A202C;
-	box-shadow: 0 25px 50px -12px rgba(0 0 0 /0.5);
-	border: none;
-	border-radius: 8px;
-	padding-inline: 0;
+#ShieldEquipped,
+#StaffEquipped,
+#CoreEquipped {
+    margin-bottom: 1rem;
+    background: #1A202C;
+    box-shadow: 0 25px 50px -12px rgba(0 0 0 /0.5);
+    border: none;
+    border-radius: 8px;
+    padding-inline: 0;
 }
 
 #heirloomWrapper {
-	background-color: var(--backColor);
+    background-color: var(--backColor);
 }
 
-#heirloomTitleBar, #equippedHeirlooms, #carriedHeirlooms, #extraHeirlooms {
-	border: none;
-	border-radius: 8px;
-	background-color: var(--mainColor);
+#heirloomTitleBar,
+#equippedHeirlooms,
+#carriedHeirlooms,
+#extraHeirlooms {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--mainColor);
 }
 
 .heirloomBtnGroup {
-	background-color: var(--offColor);
+    background-color: var(--offColor);
 }
 
 .selectedHeirloomItem {
-	border: none;
-	border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 .heirloomThing.equipped span {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
-#CoreEquipped > .heirloomThing > * {
-	margin-left: 0;
+#CoreEquipped>.heirloomThing>* {
+    margin-left: 0;
 }
 
 .heirloomRare0 .heirloomMod:hover {
- opacity:0.9
+    opacity: 0.9
 }
 
-.heirloomRare0, #heirloomsPopup .heirloomRare0 {
- color: #D1D2D3;
+.heirloomRare0,
+#heirloomsPopup .heirloomRare0 {
+    color: #D1D2D3;
 }
 
 .heirloomRare1 .heirloomMod:hover {
- opacity:0.9
+    opacity: 0.9
 }
 
-.heirloomRare1, #heirloomsPopup .heirloomRare1 {
- color: #38A169;
+.heirloomRare1,
+#heirloomsPopup .heirloomRare1 {
+    color: #38A169;
 }
 
 .heirloomRare2 {
- color:#3182CE
+    color: #3182CE
 }
 
 .heirloomRare2 .heirloomMod:hover {
- opacity:0.9
+    opacity: 0.9
 }
 
 .heirloomRare3 {
- color:#A23DAD
+    color: #A23DAD
 }
 
 .heirloomRare3 .heirloomMod:hover {
- opacity:0.9
+    opacity: 0.9
 }
 
 .heirloomRare4 {
- color:#DD6B20
+    color: #DD6B20
 }
 
 .heirloomRare4 .heirloomMod:hover {
-	opacity: 0.9;
+    opacity: 0.9;
 }
 
 .heirloomRare5 {
-	color: #E53E3E;
+    color: #E53E3E;
 }
 
 .heirloomRare5 .heirloomMod:hover {
-	opacity:0.9;
+    opacity: 0.9;
 }
 
 .heirloomRare6 {
-	color: #5A67D8;
+    color: #5A67D8;
 }
 
 #heirloomRarityMisc div {
-	background: rgba(25 31 42 / 0.95);
+    background: rgba(25 31 42 / 0.95);
 }
 
 .heirloomRare7 .heirloomMod:hover {
-	background: #742A2A
+    background: #742A2A
 }
 
 .heirloomMod:hover {
-	border: 0.2vw solid #333;
+    border: 0.2vw solid #333;
 }
 
-.heirloomRare7, .heirloomRare7.heirloomThing,
+.heirloomRare7,
+.heirloomRare7.heirloomThing,
 .heirloomRare7 div .selectedHeirloomIcon {
-	color: rgba(254 235 200 / 0.9);
+    color: rgba(254 235 200 / 0.9);
 }
 
 .heirloomRare8.rarityBdBox {
-	color: rgba(20 134 10 / 0.9);
-	border-color: rgba(20 134 10 / 0.9);
+    color: rgba(20 134 10 / 0.9);
+    border-color: rgba(20 134 10 / 0.9);
 }
 
-#CoreEquipped > .heirloomThing, #StaffEquipped > .heirloomThing {
-	width: unset;
+#CoreEquipped>.heirloomThing,
+#StaffEquipped>.heirloomThing {
+    width: unset;
 }
 
-#addCarriedBtn, #recycleAllHeirloomsBtn, #sortHeirloomsBtn {
-	padding: 2px 4px;
-	border-radius: 4px;
+#addCarriedBtn,
+#recycleAllHeirloomsBtn,
+#sortHeirloomsBtn {
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
-.heirloomBtnActive, .heirloomRecycleWarning {
-	background-color: #702459;
-	color: #FFF5F7;
+.heirloomBtnActive,
+.heirloomRecycleWarning {
+    background-color: #702459;
+    color: #FFF5F7;
 }
 
-.heirBtn, .heirloomBtnInactive {
-	border: none;
-	border-radius: 4px;
+.heirBtn,
+.heirloomBtnInactive {
+    border: none;
+    border-radius: 4px;
 }
 
 .heirBtn.heirloomBtnActive:hover {
-	-webkit-box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.25);
-	-moz-box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.25);
-	box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.25);
-	opacity: 1;
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    opacity: 1;
 }
 
 #carriedHeirloomsHere {
-	padding: 0.5vw;
+    padding: 0.5vw;
 }
 
 #nullifiumContainer {
-	color: #B83280;
+    color: #B83280;
 }
 
-.primaryColor, .colorPrimary:hover {
-	background: #337AB7E0;
+.primaryColor,
+.colorPrimary:hover {
+    background: #337AB7E0;
 }
 
 .glyphicon-grain {
-	margin-left: -4px;
+    margin-left: -4px;
 }
 
 .heirInfo {
-	margin-inline: 1px;
+    margin-inline: 1px;
 }
 
 
@@ -3179,24 +3219,23 @@ select option {
     float: none;
 }
 
-#generatorTitle {
-}
+#generatorTitle {}
 
 .dgChangeBtn {
     border: none;
     border-radius: 4px;
     font-size: 0.8vw;
     padding: 4px 8px;
-	height: unset;
-	vertical-align: middle;
-	box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
+    height: unset;
+    vertical-align: middle;
+    box-shadow: 0px 0px 5px rgba(0 0 0 / 0.25);
 }
 
 .dgChangeBtnContainer {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
 }
 
 #generatorStateConfigBtn {
@@ -3210,18 +3249,18 @@ select option {
 }
 
 #generatorUpgradeDescription {
-	background-color: #4a5568;
-	border-radius: 4px;
-	color: #E0EEF5;
-	padding: 2%;
+    background-color: #4a5568;
+    border-radius: 4px;
+    color: #E0EEF5;
+    padding: 2%;
 }
 
 #magmiteOwned {
-	color: #9b2c2c;
+    color: #9b2c2c;
 }
 
 #magmiteCost {
-	border-radius: 4px;
+    border-radius: 4px;
 }
 
 #genGaugeContainer {
