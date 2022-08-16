@@ -1,21 +1,21 @@
 /* AutoTrimps */
 #customRatios {
-  display:none;
+    display: none;
 }
 
 #autoMapBtn, #battleBtnsColumn > div:nth-child(13) {
 }
 
 .battleSideBtnContainer > *:not(#mapsBtn) {
-  padding: 0.24vw 0.3vw;
+    padding: 0.24vw 0.3vw;
 }
 
 #mapsBtn {
-	padding: 0;
+    padding: 0;
 }
 
 .heirloomRare8, .heirloomRare8.heirloomThing {
-	text-shadow: 1px 1px 2px rgba(15, 158, 74, 0.6), 0 0 25px rgba(43, 64, 185, 0.6), 0 0 5px rgba(33, 114, 51, 0.6);
+    text-shadow: 1px 1px 2px rgba(15, 158, 74, 0.6), 0 0 25px rgba(43, 64, 185, 0.6), 0 0 5px rgba(33, 114, 51, 0.6);
 }
 /* end of AutoTrimps */
 
@@ -23,12 +23,12 @@
     --mainColor: #2D3748;
     --secondColor: #2C5282;
     --backColor: #191F2A;
-	--currentColor: #0d1016;
+    --currentColor: #0d1016;
     --textColor: #EBF8FF;
     --offColor: #4A5568;
-	--poisonColor: rgba(73, 166, 73, 0.75);
-	--windColor: rgba(60, 75, 130, 0.75);
-	--iceColor: rgba(50, 50, 200, 0.75);
+    --poisonColor: rgba(73, 166, 73, 0.75);
+    --windColor: rgba(60, 75, 130, 0.75);
+    --iceColor: rgba(50, 50, 200, 0.75);
 }
 
 html {
